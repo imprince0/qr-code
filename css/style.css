@@ -1,12 +1,12 @@
-body {
-    background-color: hsl(212, 45%, 89%);
-    margin-top:8%;
+html{
     font-family: 'Outfit', sans-serif;
 }
 
-body>p {
-    size: 15px;
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin-top:10%;
 }
+
 
 .main {
     background-color: hsl(0, 0%, 100%);
@@ -26,15 +26,17 @@ body>p {
     padding: 0 25px 25px 25px;
 }
 .word>h1{
-    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 23px;
     font-weight: 700;
+    color: hsl(218, 44%, 22%);
 }
 
 .word>p{
     padding: 0 5px;
     color: hsl(220, 15%, 55%);
     size: 15px;
-    font-weight: 400;
+    font-weight: 700;
 }
 .attribution {
     padding: 5px;
