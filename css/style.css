@@ -1,6 +1,7 @@
 body {
     background-color: hsl(212, 45%, 89%);
-    margin-top:5%;
+    margin-top:8%;
+    font-family: 'Outfit', sans-serif;
 }
 
 body>p {
@@ -9,7 +10,7 @@ body>p {
 
 .main {
     background-color: hsl(0, 0%, 100%);
-    width: 350px;
+    width: 330px;
     margin: auto;
     border-radius: 20px;
 }
@@ -17,14 +18,15 @@ body>p {
 .main>img {
     border-radius: 40px;
     width: 300px;
-    padding: 25px 25px 10px 25px;
+    padding: 15px 15px 0px 15px;
 }
 
 .word {
     text-align:center;
-    padding: 0 35px 25px 35px;
+    padding: 0 25px 25px 25px;
 }
-.word>h2{
+.word>h1{
+    font-size: 25px;
     font-weight: 700;
 }
 
@@ -36,7 +38,7 @@ body>p {
 }
 .attribution {
     padding: 5px;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
 }
 
